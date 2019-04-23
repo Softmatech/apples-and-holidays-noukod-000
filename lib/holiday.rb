@@ -46,12 +46,8 @@ end
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
     new_array = []
-    holiday_hash.each do |holidays|
-      if holidays == "winter"
-          holidays.each do |data|
-            new_array << data
-          end
-      end
+    holiday_hash.each do |holidays,data|
+      puts "#{holidays} data #{data}"
     end
     new_array
 end
