@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do|holiday, supplies|
     puts holiday
     supplies.each do |sup|
-      
+
     end
   end
   new_array
