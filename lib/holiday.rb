@@ -51,7 +51,6 @@ def all_winter_holiday_supplies(holiday_hash)
       if attribute == "christmas" || attribute == "new_years"
         new_array << data
       end
-
   end
   end
   new_array
