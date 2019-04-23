@@ -47,9 +47,11 @@ def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
     new_array = []
     holiday_hash[:winter].each do |holidays,data|
-      dt = data.split('')
-      new_array << " #{dt}"
+      data.each do |dt|
+      da = dt
+      new_array << " #{da}"
     end
+  end
     new_array
 end
 
