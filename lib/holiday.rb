@@ -48,7 +48,10 @@ def all_winter_holiday_supplies(holiday_hash)
   new_array = []
   holiday_hash[:winter].each do |attribute|
     attribute.each do |data|
-    new_array << data
+      if attribute == "christmas" || attribute == "new_years"
+        new_array << data
+      end
+    
   end
   end
   new_array
